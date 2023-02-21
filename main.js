@@ -1,194 +1,146 @@
-
-// function sum(a, b){
-// let result=a+b
-
-// return result
-
+//  function sendPassword("rightly" )
+//  {
+//    return function  Password(str){
+//     if ( sendPassword("rightly" )== password(srt))   
+//      {
+//         return "true"
+//     }
+// else {
+//     return "false"
 // }
-// console.log(sum(1,3))
+
+//    }
+//  }
+//  console.log(Password("wda"))
 
 
-// function max(a, b,c){
-// if(a>b && a>c)
-// return a
-// else if (b>a && b>c)
-// return b
-// else if (c>a && c>b)
-// return c
-// }
-// console.log(max(1,3,6))
-
-// Math.sqrt
-// function nexteven(n)
-// {
-   
-//     return  n-(n%2)+2
-// }
-// console.log(nexteven(87))
-
-
-// function sum(a,b)
-// {
-//     let sum=0
-//     for (let i=a ; i<=b ;i++)
-//     sum+=i
-//     return  sum
-// }
-// console.log(sum(1,3))
-
-
-// function sum(a,b,c)
+// function oddishOrEven(a)
+// let sum=0
 // {
     
-//     return  a+b+c
 // }
-// console.log(sum(1,3,2))
 
 
-
-// let evenr=" "
-// function even(a,b)
-
+// num5 correkt
+// function divisibleByFive(a)
 // {
-//   for( let i=a;i<=b;i++)
-//   if(i%2==0)
-//   {
-//   evenr += i +" "
-// }
-// return evenr
-// }
-// console.log(even(1,10))
-
-// function Kvadrat(a,b){
-//     let c
-//     for(i=1; i<=b; i++)
-//     {
-//         c=i*i
-//         if(c>=a && c<=b)
-//         {
-//             console.log(c)
-//         }
-//     }
-// }
-// console.log(Kvadrat(1,16))
-
-
-// let c
-// function gipotez(a,b){
-// c=Math.sqrt(a*a+b*b)
-// return c
-
-// }
-// console.log(gipotez(10,16))
-
-
-
-// let sum=1
-// function fakto(n)
-
-// {
-//     for(let i=1 ;i<=n; i++)
-//     {
-//         sum*=i
-//     }
-//     return sum
-// }
-// console.log(fakto(5))
-
-
-// let cnt=0
-// function SameNum(a,c) {
-//     for(let i=1; i<=a; i/=10) {
-//        if(i%10==c)
-//        {
-//         cnt++;
-//        }
-//     }
-//     return cnt
-// }
-// console.log(SameNum(6363,3));
-
-
-// function yearsAndDay(n) {
-//     let a=0 
-//     let b=0
-//      a=(2023-n)
-//      b=a*365
-//      console.log(a +" " +b);
-// }
-// console.log(yearsAndDay(2002)); 
-
-
-
-// function reverceNum(n) {
-//     let sum=" "
-//     let rev=0
-//     for(let i=n; i>0;) {
+//     if(a%5==0) {
+//         return "true"
         
-//         rev=sum+=i%10
-//         i=Math.floor(i/=10)
-//     } 
-//     return rev
-    
+//     }
+//     else{
+//         return "false"
+//     }
+
 // }
-//   console.log(reverceNum(453));
+// console.log(divisibleByFive(4))
 
 
-// function reverceNum(n) {
-//     let sum=" "
-//     let rev=0
-//     for(let i=n; i>0;) {
-        
-//    rev=sum+=i%10
-//     i=Math.floor(i/=10)
-//     } 
-//     return rev
-    // }
-//   console.log(reverceNum(453));
-
-
-
-// function allNum(a,b,c) {
-//     let pos=0
-//     let neg=0
-//     let zero=0
-//     let sum=0
-    
-//     if(b>0)pos++;
-//     if(b<0)neg++;
-//     if(b==0)zero++;
-
-//     if(a>0)pos++;
-//     if(a<0)neg++;
-//     if(a==0)zero++;
-    
-
-     
-//     if(c>0)pos++;
-//     if(c<0)neg++;
-//     if(c==0)zero++;
-    
-//     sum=a+b+c
-
-//     console.log(Sum of entered numbers=${sum} Positive=${pos} Negative=${neg} Zero=${zero});
+// function gcd(a,b)
+// {
+//     if (a==0 && b==0)
+//     {
+//         return 1
+//     }
+//     return a  gcd(a,a-1)
 // }
-//      console.log(allNum(2,5,-8));  
+// console.log(8,32)
 
 
-function kol(x,d){
-  
-    let cnt=0;
-   
-    while(x>0)
-    {
-        if(n%10==d)
-        {
-            cnt++;
-        }
-        x/=10;
-  
+// function oddOrEven(a)
+// let sum=0
+// {
+//     for (let i=1;i<=a;i++)
+//     {
+//         sum+=(a%10)
+//     }
+//     if (sum%2==0){
+//         return "Even"
+//     }
+//     else {
+//         return "odd"
+//     }
+// }
+// console.log(oddOrEven(4433))
+
+
+
+
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+// home task1
+
+// function combinations(items) {
+//   let res = 1;
+//   for (let i = 0; i < arguments.length; i++) {
+//     res *= arguments[i];
+//   }
+//   return res;
+// }
+// console.log(combinations(2, 3, 4, 5));
+
+
+
+// function FindSeven(a)
+// {
+//     if (a%10==7)
+//     {
+//         return "boom"
+//     }
+//     else if(a<=0) {
+//         return "relax"
+//     }
+//     return FindSeven(Math.floor(a/10))
+// }
+// console.log (FindSeven(1173))
+
+
+
+
+// function adds10(a) {
+//   return function () {
+//     return a + 10;
+//   };
+// }
+// const adds = adds10(44);
+// console.log(adds());
+
+
+
+
+// function add(a)
+// {
+//     if(a==0)
+//     {
+//         return 0
+//     }
+//     console.log(a)
+//     return add(a-1)
+// }
+// add(10)
+
+
+// ----------------------------------------------------------------------------------------------------
+
+// task 1
+// function comp(a,b)
+// {
+//  if (a.length==b.length)
+//  {
+//     return true 
+//  }
+//  else {
+//  return false}
+// }
+// console.log(comp("asd","da"))
+
+
+function findNemo(str){
+let str2=str.split(" ").indexOf("Nemo")
+    return str?`i fund Nemo`
 }
-console.log(kol(6363,3));  
-
-    
-}
+console.log(findNemo("i am finding Nemo !"))
