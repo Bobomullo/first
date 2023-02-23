@@ -61,7 +61,7 @@ JavaScript множество способов:
 
 
 
-# What is a Method in js? 
+<!-- # What is a Method in js? 
 
 > Метод — это блок кода, который запускается только при вызове.
 Вы можете передавать данные, известные как параметры, в метод.
@@ -223,6 +223,97 @@ JavaScript множество способов:
 
 # JavaScript Number method isNaN()
 >Функция isNaN() проверяет, является ли значение NaN (Not-a-Number) или нет.
-![](/img/NaN.png)
+![](/img/NaN.png) -->
+
+# Array metods
+
+# Getting Started With JavaScript
+
+>Массив — это объект, который содержит значения (любого типа), не относящиеся конкретно к именованным.
+свойства/ключи, а скорее в позиции с числовым индексом
+В JavaScript массив — это упорядоченный список значений. Каждое значение называется
+элемент, указанный индексом. ... Во-первых, массив может содержать значения смешанных
+типы.
+
+![](/img/arr%20maetod.png)
+
+
+# CHANGE ELEMENTS IN ARRAY
+
+>Вы также можете добавлять элементы или изменять элементы, обращаясь к индексу
+ценить
+
+![](/img/012.png)
+
+>Предположим, массив состоит из двух элементов. Если вы попытаетесь добавить элемент с индексом 3
+(четвертый элемент), третий элемент будет неопределенным. Например,
+![](/img/013.png)
+
+# array methods
+
+![](/img/014.jpg)
+
+# Add an Element to an Array
+>Вы можете использовать встроенный метод push() и unshift() для добавления элементов в
+множество.
+## Push() ##
+![](/img/001.png)
+
+## Unshift() ##
+![](/img/002.webp)
+
+# Delete an Element in Array
+
+## POP() and SHIFT()
+![](/img/003.svg)
+
+
+# JavaScript array methods
+
+## reverse() ##
+ 
+![](/img/0101.png)
+
+## concat
+![](/img/0202.png)
+
+# JavaScript array methods
+
+## indexOf()
+![](/img/0303.png)
+
+## includes()
+
+![](/img/0404.webp)
+
+# JavaScript array methods
+
+## splice()
+![](/img/111.png)
+
+
+# JavaScript array methods
+
+## slice()
+![](/img/222.png)
+
+# JavaScript array methods callbacks
+## map()
+![](/img/333.png)
+
+## forEach()
+![](/img/444.jpeg)
+
+# JavaScript array methods
+
+## find()
+![](/img/555.png)
+
+## sort()
+
+
+
+
+
 
 
