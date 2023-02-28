@@ -410,11 +410,64 @@
 
 
 
+// task 1
+// function drop(arr)
+// {
+//    return arr.slice(1) 
+// }
+// console.log(drop([1,2,3,4,5]));
 
-function totalVolume(...arr)
-{
+
+// function sumArr(arr)
+// {
+//     return arr.reduce((a,b)=>{
+//         return a + b
+//     })
+// }
+// console.log(sumArr([1,2,3,4,5]));
+
+
+
+// function tooString(arr)
+// {
+//     return arr.join('')
+// }
+// console.log(tooString([1,2,3,4,5]));
+
+
+
+
+
+// function scond(arr)
+// {
+//     let arr1=arr.sort((a,b)=>{
+//         return a-b
+//     })
+//     return arr1.reverse()[1]
+// }
+// console.log(scond([10,20,30,40]));
+
+
+// function index(arr)
+// {
+//     return arr.indexOf("blue")
+// }
+// console.log(index(["apple","blue","red"]));
+
+
+
+
+// function addNum(arr)
+// { arr1=0
+//      arr1=arr.filter((e)=>{
+//         return typeof(e)=="number"
+//     })
     
-}
+//     return arr1.reduce((a,b)=>{
+//         return a+b
+//     })
+// }
+// console.log(addNum([1,2,'a','23432']));
 
 
 
@@ -422,4 +475,241 @@ function totalVolume(...arr)
 
 
 
+// function indexMulti(arr)
+// {
+//     let arr1=0
+//     arr1=arr.map((e,i)=>{
+//         return e*i
+//     })
+//     return arr1.reduce((a,b)=>{
+//         return a+b
+//     })
+//     return arr1
+// }
+// console.log(indexMulti([1,2,3,4,5]));
 
+
+
+
+// function sevenBoom(arr)
+// {
+//     let arr1=arr.join('')
+//         return arr1.includes('7')?"boom":"no"
+    
+// }
+// console.log(sevenBoom([1,2,3,4,7,5,6,9,0]));
+
+
+
+// function name(a) {
+    
+//     let arr = a.sort((a,b)=>{
+//         return a - b 
+//     })
+//     arr = arr.map((c,i)=>{
+//         return c == arr[i+1]?c:"null"
+//     }).filter((a)=>{
+//         return typeof(a)=="number"
+//     })
+//     return arr != 0? arr:"Null"
+
+    
+// }
+// console.log(name([1,2,3,4,5,6,7,8,9,10]));
+
+
+
+
+// function addNum(arr)
+// { arr1=0
+//      arr1=arr.filter((e)=>{
+//         return typeof(e)=="number"
+//     })
+//     return arr1
+// }
+// console.log(addNum([1,2,'a','23432']));
+
+
+
+
+
+
+
+// function evenArray(n) {
+    //     let arr=[...n]
+    //     return arr.filter((a)=>{
+    //         return n.indexOf(a)%2==0
+    //     })
+    // }
+    // console.log(evenArray([0,1,2,3,4]));  
+    
+    // task 12 
+    
+    // function sortArray(n) {
+    //     let arr=[...n]
+    //     return arr.sort((a,b)=>{
+    //         return a.length - b.length
+    //     })
+    // }
+    // console.log(sortArray(['wofwefw','apple','awe','fweg','ad'])); 
+    
+    // task 13 
+    
+    // function compactArr(n) {
+    //     let arr=[...n] 
+    
+    //     return arr.filter((a)=>{
+    //         return a!=false
+    //     })
+    // }
+    // console.log(compactArr([0,2,false,'',3]));
+    
+
+
+
+    // function evenOdd(arr){
+    //    let arr1
+    //     arr1= arr.reduce((a,b)=>{
+    //         return a+b
+    //     },0)
+    //     return arr1 % 2 ==0 ? "even":"odd"
+    // }
+    // console.log(evenOdd([1,2]))
+
+
+//     function numInstr(arr)
+//     {
+        
+//         let arr1=arr.filter((a,b)=>{
+//           return a.includes(1) || a.includes(0) ||a.includes(2) || a.includes(3) || a.includes(4) || a.includes(5) || a.includes(6) || a.includes(7) || a.includes(8) || a.includes(9)
+//         })
+//         return arr1
+//         }
+
+// console.log(numInstr(['da4','fwe1fw4e','nioj']));
+
+
+
+// function mirror(arr)
+// {
+//     let arr1=[...arr]
+//     arr1=arr1.reverse().slice(1)
+//     return  arr.concat(arr1)
+// }
+// console.log(mirror([1,2,3,4,5]));
+
+
+
+// task 4
+// function marathonDist(n) {
+//      let arr=n.reduce((a,b)=>{
+//         return Math.abs(a)+Math.abs(b)
+//      })
+//     if(arr==25) {
+//         return true
+//     }
+//     else {return false}
+// }
+// console.log(marathonDist([1,9,5,8,2]));
+
+
+
+
+// task 5
+// function removeDups(...arr){
+// let arr1=[...arr]
+// return arr1.filter((a,b)=>{
+//     return arr.indexOf(a)!=b
+// })
+
+
+// }
+// console.log(removeDups('eqw','qqwoi','qwe','ewq','eqw','ewq'))
+
+
+
+
+
+
+
+// task 6
+// function reverseArr(...arr)
+// {
+//      let arr1=arr.toString().split('').reverse()
+    
+    
+//      return arr1
+// }
+// console.log(reverseArr(1134));
+
+
+
+
+// function date (a,b){
+    
+// return 
+
+
+// }
+// console.log(date(new Date("2003"),new Date("2023")));
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// metod New date
+// let timeNow = new Date()
+// console.log(timeNow);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// metod New date  nachalo
+// let time1 =new Date(0)
+// console.log(time1);
+
+//////////////////////////////////////////////////////
+// metod New date sring
+// let date = new Date("2023-02-16")
+// console.log(date);
+/////////////////////////////////////////////////
+// metod New date parametr
+// let time1 =new Date(2020,1,20,4,12,11,0)
+// console.log(time1);
+
+////////////////////////////////////////////////////////////////////////////////////////
+// metod Now ()
+// let n=Date.now()
+// console.log(n);
+///////////////////////////////////////////////////////////////////////////////////////////////
+
+// metod getFullYear
+// const time= new Date()
+// let year = time.getFullYear()
+// console.log(year);
+
+//////////////////////////////////////////////////////////////
+// metod getMonth()
+// let d = new Date()
+// let month=d.getMonth()
+// console.log(month);
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+// metod get date()
+// let d=new Date()
+// let day=d.getDate()
+// console.log(day);
+//////////////////////////////////////////////////////////////////////////////////////
+// metod getDay
+// let day=new Date()
+// console.log(day.getDay());
+//////////////////////////////////////////////////////////////////////////////////
+
+// metod get hours
+// let day=new Date()
+// console.log(day.getHours());
+/////////////////////////////////////////////////////////////////////
+// metod getMinutes
+// let day=new Date()
+// console.log(day.getMinutes());
+/////////////////////////////////////////////////////////////////////////
+// metod set day
+// let d=new Date()
+// d.setDate(15)
+// console.log(d);
+/////////////////////////////////////////////////////////////////////////////////

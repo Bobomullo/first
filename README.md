@@ -225,7 +225,7 @@ JavaScript множество способов:
 >Функция isNaN() проверяет, является ли значение NaN (Not-a-Number) или нет.
 ![](/img/NaN.png) -->
 
-# Array metods
+<!-- # Array metods
 
 # Getting Started With JavaScript
 
@@ -309,7 +309,102 @@ JavaScript множество способов:
 ## find()
 ![](/img/555.png)
 
-## sort()
+## sort() -->
+
+
+
+
+# What is a object in java script ?
+
+>В JavaScript объект является автономным
+объект со свойствами и типом.
+Сравните это, например, с чашкой. А
+чашка - это объект со свойствами. Чашка
+имеет цвет, дизайн, вес, материал
+из чего он сделан и т. д. Таким же образом,
+Объекты JavaScript могут иметь свойства,
+которые определяют их характеристики.
+Все является объектом в JavaScript.
+
+![](/img/object.webp)
+
+# Create object
+
+>Объект JavaScript — это непримитивный тип данных, который позволяет вам
+хранить несколько коллекций данных
+
+![](/img/alex.png)
+
+# Methods object
+
+## Object.entries()
+
+![](/img/a1.png)
+
+# Object. keys()
+
+!][](/img/4)
+
+# Object. values()
+
+![](/img/value.png)
+
+# Destructuring AND spread in object
+
+>Синтаксис деструктурирующего присваивания представляет собой выражение JavaScript, которое делает его
+можно распаковать свойства объекта в отдельные переменные
+
+![](/img/a2.png)
+
+# How the this keyword works
+
+![](/img/a3.png)
+
+![](/img/a5.png)
+
+## DATA AND TIME
+
+![](/img/a4.png)
+
+# DATA AND TIME
+
+![](/img/Screenshot_9.png)
+
+# DATA AND TIME
+
+![](/img/Screenshot_10.png)
+
+# DATA AND TIME
+
+![](/img/Screenshot_11.png)
+
+# DATA AND TIME
+
+![](/img/Date-now-Method-in-JavaScript-1.webp)
+
+![](/img/a6.png)
+
+# DATA AND TIME
+
+![](/img/a7.png)
+
+# DATA AND TIME
+
+![](/img/a8.png)
+
+# ATA AND TIME
+
+![](/img/a9.png)
+
+# DATA AND TIME
+
+
+![](/img/a10.png)
+
+# DATA AND TIME
+
+![](/img/a11.png)
+
 
 
 
